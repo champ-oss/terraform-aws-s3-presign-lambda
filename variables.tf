@@ -12,6 +12,7 @@ variable "git" {
 variable "runtime" {
   description = "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html"
   type        = string
+  default     = "python3.8"
 }
 
 variable "bucket" {
