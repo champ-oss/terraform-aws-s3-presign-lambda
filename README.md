@@ -33,7 +33,7 @@ No requirements.
 |------|-------------|------|---------|:--------:|
 | <a name="input_bucket"></a> [bucket](#input\_bucket) | S3 bucket for generating pre-signed URLs | `string` | n/a | yes |
 | <a name="input_git"></a> [git](#input\_git) | Name of the Git repo | `string` | n/a | yes |
-| <a name="input_runtime"></a> [runtime](#input\_runtime) | https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html | `string` | n/a | yes |
+| <a name="input_runtime"></a> [runtime](#input\_runtime) | https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html | `string` | `"python3.8"` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | Map of tags to assign to resources | `map(string)` | `{}` | no |
 
 ## Outputs
