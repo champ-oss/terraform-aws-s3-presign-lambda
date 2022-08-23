@@ -19,5 +19,4 @@ module "presigned_post_generator_lambda" {
 resource "aws_iam_role_policy_attachment" "presigned_post_generator_lambda" {
   policy_arn = aws_iam_policy.this.arn
   role       = module.presigned_post_generator_lambda.role_name
-  tags       = merge(local.tags, var.tags)
 }
