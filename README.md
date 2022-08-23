@@ -16,7 +16,7 @@ No requirements.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_presigned_post_generator_lambda"></a> [presigned\_post\_generator\_lambda](#module\_presigned\_post\_generator\_lambda) | github.com/champ-oss/terraform-aws-lambda.git | v1.0.82-7c600ed |
+| <a name="module_presigned_post_generator_lambda"></a> [presigned\_post\_generator\_lambda](#module\_presigned\_post\_generator\_lambda) | github.com/champ-oss/terraform-aws-lambda.git | v1.0.85-95bfaff |
 
 ## Resources
 
