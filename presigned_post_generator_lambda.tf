@@ -6,7 +6,7 @@ data "archive_file" "presigned_post_generator_lambda" {
 }
 
 module "presigned_post_generator_lambda" {
-  source           = "github.com/champ-oss/terraform-aws-lambda.git?ref=v1.0.147-dd45619"
+  source           = "github.com/champ-oss/terraform-aws-lambda.git?ref=v1.0.153-c724020"
   git              = var.git
   name             = "presigned_post_generator_lambda"
   tags             = merge(local.tags, var.tags)
